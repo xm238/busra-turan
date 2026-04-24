@@ -1,3 +1,7 @@
 # Büşra Turan Beauty
 
-Template-family rebuild with separate HTML/CSS/JS files.
+Template style: perihan
+
+- Stock görseller kullanılmıştır
+- Logo SVG olarak yeniden üretilmiştir
+- Tek sayfa, ayrı CSS ve JS dosyaları ile hazırlanmıştır

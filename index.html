@@ -3,268 +3,136 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Büşra Turan Beauty | Beşiktaş</title>
-  <meta name="description" content="Büşra Turan Beauty için Beşiktaş lokasyonunda hizmetler, galeri, değerlendirmeler ve hızlı randevu alanı.">
+  <title>Büşra Turan Beauty | Beauty Salon Beşiktaş</title>
+  <meta name="description" content="Büşra Turan Beauty için Beşiktaş lokasyonunda hizmetler, galeri, yorumlar ve randevu formu.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&family=Nunito+Sans:wght@300;400;600;700;800&family=Playfair+Display:wght@400;500;600;700&family=Questrial&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Jost:wght@300;400;500;600&family=Manrope:wght@300;400;500;600;700;800&family=Marcellus&family=Montserrat:wght@300;400;500;600;700;800&family=Nunito+Sans:wght@300;400;600;700;800&family=Playfair+Display:wght@400;500;600;700&family=Questrial&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="pack-perihan hero-portrait">
-  <div class="site-preloader"><div class="preloader-ring"></div></div>
-
+<body class="template-perihan">
   <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="#top" aria-label="Büşra Turan Beauty ana sayfa">
-        <img class="brand-logo" src="assets/logo.png" alt="Büşra Turan Beauty logo">
-        <strong class="brand-title">Büşra Turan Beauty</strong>
-      </a>
+    <div class="container nav-wrap">
+      <a class="brand" href="#home"><img src="assets/logo.svg" alt="Büşra Turan Beauty logo"><span>Büşra Turan Beauty</span></a>
       <button class="menu-toggle" aria-label="Menü">Menü</button>
-      <nav class="nav" aria-label="Ana menü">
+      <nav class="nav">
         <a href="#services">Hizmetler</a>
         <a href="#gallery">Galeri</a>
         <a href="#reviews">Yorumlar</a>
         <a href="#faq">SSS</a>
-        <a class="cta" href="tel:+905393247306">📞 0539 324 73 06</a>
+        <a class="cta" href="tel:+905393247306">0539 324 73 06</a>
       </nav>
     </div>
   </header>
 
-  <main class="page" id="top">
-    <section class="hero reveal">
-      <div class="hero-shell">
-        <div class="hero-copy">
-          <span class="hero-kicker">Beauty Salon · Beşiktaş</span>
+  <section class="hero hero-perihan" id="home">
+      <div class="hero-backdrop"></div>
+      <div class="hero-slider" data-slider>
+      <article class="hero-slide active"><img src="https://source.unsplash.com/1600x1000/?beauty%20salon%20interior&sig=48" alt="Büşra Turan Beauty görsel 1"></article>
+      <article class="hero-slide"><img src="https://source.unsplash.com/1600x1000/?facial%20treatment%20clinic&sig=85" alt="Büşra Turan Beauty görsel 2"></article>
+      <article class="hero-slide"><img src="https://source.unsplash.com/1600x1000/?laser%20beauty%20woman&sig=122" alt="Büşra Turan Beauty görsel 3"></article>
+      <div class="hero-dots"><button class="dot active"></button><button class="dot"></button><button class="dot"></button></div>
+    </div>
+      <div class="hero-content-wrap container">
+        <div class="hero-content">
+          <span class="eyebrow">Beauty Salon · 4.8 / 5</span>
           <h1>Büşra Turan Beauty</h1>
-          <p>Nail ve bakım hizmetlerinde estetik çizgiyi güçlü ekip deneyimiyle birleştiren salon.</p>
-          <div class="hero-pills">
-            <span class="hero-pill">⭐ 4.8 / 5</span>
-            <span class="hero-pill">97 yorum</span>
-            <span class="hero-pill">Açık · 20:00’de kapanıyor</span>
+          <p>Nail, cilt ve bakım uygulamalarında sofistike salon deneyimi ve yüksek memnuniyet.</p>
+          <div class="hero-actions"><a class="btn primary" href="#booking">Randevu Oluştur</a><a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Cihann%C3%BCma%2C%20Barbaros%20Blv.%20Aykut%20Pasaj%C4%B1%20No%2025%20Kat%202%20Daire%203%2C%2034353%20Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul">Haritada Aç</a></div>
+        </div>
+        <div class="hero-floating">
+          <strong>97 Yorum</strong>
+          <span>Açık · 20:00’de kapanıyor</span>
+        </div>
+      </div>
+    </section>
+
+  <main>
+    <section class="overview section">
+      <div class="container two-col">
+        <article class="panel reveal">
+          <h2>Salon Profili</h2>
+          <p>Büşra Turan Beauty, özellikle tırnak ve kişisel bakım hizmetlerinde estetik detaylara önem veren, butik ama kapsamlı bir hizmet çizgisine sahiptir.</p>
+          <ul class="highlights"><li>97 müşteri yorumu</li><li>Konum: Aykut Pasajı</li><li>Nail odaklı güçlü portföy</li></ul>
+        </article>
+        <article class="panel reveal">
+          <h3>Temel Bilgiler</h3>
+          <div class="meta-list">
+            <div><small>Puan</small><strong>4.8 / 5</strong></div>
+            <div><small>Yorum</small><strong>97</strong></div>
+            <div><small>Saat</small><strong>Açık · 20:00’de kapanıyor</strong></div>
+            <div><small>Plus Code</small><strong>22V4+VQ Beşiktaş, İstanbul</strong></div>
           </div>
-          <div class="hero-actions">
-            <a class="btn primary" href="#booking">Randevu Talebi</a>
-            <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Cihann%C3%BCma%2C%20Barbaros%20Blv.%20Aykut%20Pasaj%C4%B1%20No%2025%20Kat%202%20Daire%203%2C%2034353%20Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul" target="_blank" rel="noopener">Haritada Aç</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-head reveal"><span class="eyebrow">Template Style</span><h2>Hizmet Alanları</h2><p>Bu sayfa perihan şablon akışına göre düzenlenmiştir.</p></div>
+        <div class="services-grid"><article class="service-card reveal"><div class="num">01</div><h3>Protez Tırnak</h3><p>Büşra Turan Beauty ekibi tarafından kişisel değerlendirme ile planlanır.</p></article><article class="service-card reveal"><div class="num">02</div><h3>Kalıcı Oje</h3><p>Büşra Turan Beauty ekibi tarafından kişisel değerlendirme ile planlanır.</p></article><article class="service-card reveal"><div class="num">03</div><h3>Nail Art</h3><p>Büşra Turan Beauty ekibi tarafından kişisel değerlendirme ile planlanır.</p></article><article class="service-card reveal"><div class="num">04</div><h3>Lash Touch</h3><p>Büşra Turan Beauty ekibi tarafından kişisel değerlendirme ile planlanır.</p></article><article class="service-card reveal"><div class="num">05</div><h3>Skin Glow</h3><p>Büşra Turan Beauty ekibi tarafından kişisel değerlendirme ile planlanır.</p></article><article class="service-card reveal"><div class="num">06</div><h3>El &amp; Ayak Bakımı</h3><p>Büşra Turan Beauty ekibi tarafından kişisel değerlendirme ile planlanır.</p></article></div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-head reveal"><h2>Galeri</h2><p>Stock görsellerle hazırlanmış örnek portföy akışı.</p></div>
+        <div class="gallery-grid"><figure class="gallery-item reveal"><img src="https://source.unsplash.com/1600x1000/?beauty%20salon%20interior&sig=48" alt="Büşra Turan Beauty galeri 1"><figcaption>Büşra Turan Beauty</figcaption></figure><figure class="gallery-item reveal"><img src="https://source.unsplash.com/1600x1000/?facial%20treatment%20clinic&sig=85" alt="Büşra Turan Beauty galeri 2"><figcaption>Büşra Turan Beauty</figcaption></figure><figure class="gallery-item reveal"><img src="https://source.unsplash.com/1600x1000/?laser%20beauty%20woman&sig=122" alt="Büşra Turan Beauty galeri 3"><figcaption>Büşra Turan Beauty</figcaption></figure><figure class="gallery-item reveal"><img src="https://source.unsplash.com/1600x1000/?nail%20salon%20closeup&sig=159" alt="Büşra Turan Beauty galeri 4"><figcaption>Büşra Turan Beauty</figcaption></figure><figure class="gallery-item reveal"><img src="https://source.unsplash.com/1600x1000/?spa%20skin%20care&sig=196" alt="Büşra Turan Beauty galeri 5"><figcaption>Büşra Turan Beauty</figcaption></figure><figure class="gallery-item reveal"><img src="https://source.unsplash.com/1600x1000/?beauty%20reception%20desk&sig=233" alt="Büşra Turan Beauty galeri 6"><figcaption>Büşra Turan Beauty</figcaption></figure><figure class="gallery-item reveal"><img src="https://source.unsplash.com/1600x1000/?lashes%20beauty%20studio&sig=270" alt="Büşra Turan Beauty galeri 7"><figcaption>Büşra Turan Beauty</figcaption></figure><figure class="gallery-item reveal"><img src="https://source.unsplash.com/1600x1000/?clean%20beauty%20clinic&sig=307" alt="Büşra Turan Beauty galeri 8"><figcaption>Büşra Turan Beauty</figcaption></figure></div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews">
+      <div class="container">
+        <div class="section-head reveal"><h2>Müşteri Yorumları</h2><p>Google değerlendirme özetlerinden derlenen kısa alıntılar.</p></div>
+        <div class="testimonial-wrap reveal">
+          <div class="testimonial-slider"><article class="testimonial active"><p>“Nail uygulaması ve ekip ilgisi çok iyiydi, tekrar geleceğim.”</p><h4>Sarab Hussin</h4></article><article class="testimonial "><p>“Hizmet kalitesi ve sonuçtan memnun kaldım.”</p><h4>Darinka Mendez</h4></article><article class="testimonial "><p>“İşlem sırasında detaylara gösterilen özen fark yaratıyor.”</p><h4>Danışan Notu</h4></article></div>
+          <div class="testimonial-nav"><button data-prev>Önceki</button><button data-next>Sonraki</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section" id="faq">
+      <div class="container two-col">
+        <article class="panel reveal">
+          <h2>Sık Sorulan Sorular</h2>
+          <p>Randevu ve süreçle ilgili en çok sorulan başlıklar.</p>
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Cihann%C3%BCma%2C%20Barbaros%20Blv.%20Aykut%20Pasaj%C4%B1%20No%2025%20Kat%202%20Daire%203%2C%2034353%20Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul">Konumu Aç</a>
+        </article>
+        <div class="faq-list reveal"><article class="faq-item"><button class="faq-q">Nail art kişiye özel mi?<span>+</span></button><div class="faq-a">Evet, model ve renk seçimi tamamen kişisel tercihe göre planlanır.</div></article><article class="faq-item"><button class="faq-q">Randevu süresi ne kadar?<span>+</span></button><div class="faq-a">Seçilen hizmete göre ortalama 45-120 dakika aralığındadır.</div></article><article class="faq-item"><button class="faq-q">Konum bilgisi alabilir miyim?<span>+</span></button><div class="faq-a">Salon Beşiktaş Barbaros Bulvarı üzerindeki Aykut Pasajı içindedir.</div></article></div>
+      </div>
+    </section>
+
+    <section class="booking section" id="booking">
+      <div class="container two-col">
+        <article class="panel reveal">
+          <h2>Randevu Talebi</h2>
+          <p>Formu doldurduğunuzda mesaj doğrudan WhatsApp hattına hazırlanır.</p>
+          <div class="contact-box" id="contact">
+            <p><strong>Telefon:</strong> <a href="tel:+905393247306">0539 324 73 06</a></p>
+            <p><strong>Adres:</strong> Cihannüma, Barbaros Blv. Aykut Pasajı No 25 Kat 2 Daire 3, 34353 Beşiktaş/İstanbul</p>
+            <p><strong>Çalışma:</strong> Açık · 20:00’de kapanıyor</p>
           </div>
-        </div>
-
-        <div class="hero-media">
-          <div class="hero-slider" aria-label="Büşra Turan Beauty hero görselleri">
-            <article class="hero-slide active"><img src="assets/local-1.png" alt="Büşra Turan Beauty hero 1"></article>
-            <article class="hero-slide"><img src="https://source.unsplash.com/1600x1000/?manicure,beauty,salon&sig=441" alt="Büşra Turan Beauty hero 2"></article>
-            <article class="hero-slide"><img src="https://source.unsplash.com/1600x1000/?nail,design,studio&sig=442" alt="Büşra Turan Beauty hero 3"></article>
-            <div class="hero-dots">
-              <button class="hero-dot active" aria-label="Slide 1"></button>
-              <button class="hero-dot" aria-label="Slide 2"></button>
-              <button class="hero-dot" aria-label="Slide 3"></button>
-            </div>
-          </div>
-
-          <aside class="booking-card" id="booking">
-            <h3>Hızlı Randevu</h3>
-            <form id="bookingForm">
-              <div class="booking-grid">
-                <div class="field"><label>Ad Soyad</label><input name="name" type="text" required></div>
-                <div class="field"><label>Telefon</label><input name="phone" type="tel" required></div>
-                <div class="field full"><label>Hizmet</label><select name="service" required>
-                  <option value="">Hizmet seçin</option>
-                  <option value="Protez Tırnak">Protez Tırnak</option><option value="Kalıcı Oje">Kalıcı Oje</option><option value="Nail Art">Nail Art</option><option value="Lash Touch">Lash Touch</option><option value="Skin Glow">Skin Glow</option><option value="Beauty Care">Beauty Care</option>
-                </select></div>
-                <div class="field"><label>Tarih</label><input name="date" type="date"></div>
-                <div class="field full"><label>Not</label><textarea name="note" placeholder="Tercih ettiğiniz saat veya özel not"></textarea></div>
-              </div>
-              <button class="btn primary" type="submit">WhatsApp ile Gönder</button>
-              <p class="form-note">Mesaj doğrudan Büşra Turan Beauty hattına iletilir.</p>
-            </form>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section class="reveal">
-      <div class="section-head">
-        <h2>Salon Profili</h2>
-        <p>Büşra Turan Beauty, özellikle el-ayak bakımı ve kişiselleştirilmiş uygulamalarla müşteri sadakati yüksek bir profil oluşturur.</p>
-      </div>
-      <div class="kpis">
-        <article class="kpi"><strong data-count="97">0</strong><span>Yorum Sayısı</span></article>
-        <article class="kpi"><strong data-count="48">0</strong><span>Skor Endeksi</span></article>
-        <article class="kpi"><strong data-count="6">0</strong><span>Öne Çıkan Hizmet</span></article>
-        <article class="kpi"><strong data-count="365">0</strong><span>Yıllık Açık Gün</span></article>
-      </div>
-    </section>
-
-    <section id="services">
-      <div class="section-head reveal">
-        <h2>Hizmet Alanları</h2>
-        <p>İşletmenin yorumlarda öne çıkan başlıkları ve bakım ihtiyaçlarına göre seçilmiş hizmet dağılımı.</p>
-      </div>
-      <div class="services-grid">
-        <article class="service-card reveal">
-          <div class="icon">✨</div>
-          <h3>Protez Tırnak</h3>
-          <p>Büşra Turan Beauty ekibi tarafından seans planına uygun şekilde uygulanır.</p>
         </article>
-        <article class="service-card reveal">
-          <div class="icon">💆</div>
-          <h3>Kalıcı Oje</h3>
-          <p>Büşra Turan Beauty ekibi tarafından seans planına uygun şekilde uygulanır.</p>
-        </article>
-        <article class="service-card reveal">
-          <div class="icon">🧴</div>
-          <h3>Nail Art</h3>
-          <p>Büşra Turan Beauty ekibi tarafından seans planına uygun şekilde uygulanır.</p>
-        </article>
-        <article class="service-card reveal">
-          <div class="icon">🪞</div>
-          <h3>Lash Touch</h3>
-          <p>Büşra Turan Beauty ekibi tarafından seans planına uygun şekilde uygulanır.</p>
-        </article>
-        <article class="service-card reveal">
-          <div class="icon">💅</div>
-          <h3>Skin Glow</h3>
-          <p>Büşra Turan Beauty ekibi tarafından seans planına uygun şekilde uygulanır.</p>
-        </article>
-        <article class="service-card reveal">
-          <div class="icon">🧬</div>
-          <h3>Beauty Care</h3>
-          <p>Büşra Turan Beauty ekibi tarafından seans planına uygun şekilde uygulanır.</p>
-        </article>
+        <form id="bookingForm" class="panel form-panel reveal">
+          <label>Ad Soyad<input name="name" required></label>
+          <label>Telefon<input name="phone" required></label>
+          <label>Hizmet<select name="service" required><option value="">Seçiniz</option><option value="Protez Tırnak">Protez Tırnak</option><option value="Kalıcı Oje">Kalıcı Oje</option><option value="Nail Art">Nail Art</option><option value="Lash Touch">Lash Touch</option><option value="Skin Glow">Skin Glow</option><option value="El &amp; Ayak Bakımı">El &amp; Ayak Bakımı</option></select></label>
+          <label>Tarih<input type="date" name="date"></label>
+          <label>Not<textarea name="note" rows="4"></textarea></label>
+          <button type="submit" class="btn primary">WhatsApp Mesajı Oluştur</button>
+        </form>
       </div>
-    </section>
-
-    <section>
-      <div class="section-head reveal">
-        <h2>İşlem Akışı</h2>
-        <p>Her işlemde danışmanlık, uygulama ve sonuç takibi adımları standartlaştırılır.</p>
-      </div>
-      <div class="treatment-steps">
-        <article class="step reveal">
-          <b>01</b>
-          <h3>Nail Design Brief</h3>
-          <p>Tarzınıza göre renk ve form planı</p>
-        </article>
-        <article class="step reveal">
-          <b>02</b>
-          <h3>Uygulama</h3>
-          <p>Detaylı teknik işçilik ve yüzey dayanıklılığı</p>
-        </article>
-        <article class="step reveal">
-          <b>03</b>
-          <h3>Kontrol</h3>
-          <p>Kalıcılık ve bakım önerileri ile kapanış</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="gallery">
-      <div class="section-head reveal">
-        <h2>Galeri</h2>
-        <p>Yerel materyaller + sektörel yüksek çözünürlüklü görsellerle hazırlanmış vitrin.</p>
-      </div>
-      <div class="gallery-grid">
-          <figure class="gallery-item reveal">
-            <img src="assets/local-1.png" alt="Büşra Turan Beauty galeri görsel 1">
-            <span>Büşra Turan Beauty</span>
-          </figure>
-          <figure class="gallery-item reveal">
-            <img src="https://source.unsplash.com/1600x1000/?manicure,beauty,salon&sig=441" alt="Büşra Turan Beauty galeri görsel 2">
-            <span>Büşra Turan Beauty</span>
-          </figure>
-          <figure class="gallery-item reveal">
-            <img src="https://source.unsplash.com/1600x1000/?nail,design,studio&sig=442" alt="Büşra Turan Beauty galeri görsel 3">
-            <span>Büşra Turan Beauty</span>
-          </figure>
-          <figure class="gallery-item reveal">
-            <img src="https://source.unsplash.com/1600x1000/?beauty,care,woman&sig=443" alt="Büşra Turan Beauty galeri görsel 4">
-            <span>Büşra Turan Beauty</span>
-          </figure>
-          <figure class="gallery-item reveal">
-            <img src="https://source.unsplash.com/1600x1000/?manicure,beauty,salon&sig=441" alt="Büşra Turan Beauty galeri görsel 5">
-            <span>Büşra Turan Beauty</span>
-          </figure>
-          <figure class="gallery-item reveal">
-            <img src="https://source.unsplash.com/1600x1000/?nail,design,studio&sig=442" alt="Büşra Turan Beauty galeri görsel 6">
-            <span>Büşra Turan Beauty</span>
-          </figure>
-          <figure class="gallery-item reveal">
-            <img src="https://source.unsplash.com/1600x1000/?beauty,care,woman&sig=443" alt="Büşra Turan Beauty galeri görsel 7">
-            <span>Büşra Turan Beauty</span>
-          </figure>
-      </div>
-    </section>
-
-    <section id="reviews" class="reveal">
-      <div class="section-head">
-        <h2>Müşteri Yorumları</h2>
-        <p>Google yorumlarından derlenen öne çıkan geri bildirimler.</p>
-      </div>
-      <div class="testimonial-wrap">
-        <div class="testimonial-slider">
-          <article class="testimonial active">
-            <p>“Katia was amazing. My mom also did nails, we were very happy.”</p>
-            <h4>Sarab H.</h4>
-          </article>
-          <article class="testimonial ">
-            <p>“Really good work and service.”</p>
-            <h4>Darinka M.</h4>
-          </article>
-          <article class="testimonial ">
-            <p>“Ekip yaklaşımı sıcak ve işlem süreci rahat geçti.”</p>
-            <h4>Client Voice</h4>
-          </article>
-        </div>
-        <div class="t-nav">
-          <button type="button" data-t-prev>Önceki</button>
-          <button type="button" data-t-next>Sonraki</button>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="reveal">
-      <div class="section-head">
-        <h2>Sık Sorulan Sorular</h2>
-        <p>Randevu ve işlem süreci hakkında hızlı referans noktaları.</p>
-      </div>
-      <div class="faq">
-        <article class="faq-item"><h3 class="faq-q">Randevu nasıl oluşturulur? <span>+</span></h3><div class="faq-a">Sayfadaki hızlı randevu formunu doldurarak WhatsApp üzerinden doğrudan iletebilirsiniz.</div></article>
-        <article class="faq-item"><h3 class="faq-q">Konum bilgisi nerede? <span>+</span></h3><div class="faq-a">Adres bölümündeki “Haritada Aç” bağlantısı ile doğrudan yol tarifi alabilirsiniz.</div></article>
-        <article class="faq-item"><h3 class="faq-q">Hangi saat aralığında hizmet var? <span>+</span></h3><div class="faq-a">Güncel çalışma bilgisi: Açık · 20:00’de kapanıyor.</div></article>
-      </div>
-    </section>
-
-    <section class="contact-grid reveal">
-      <article class="card">
-        <h2>İletişim</h2>
-        <div class="detail-list">
-          <div class="detail"><small>Adres</small><strong>Cihannüma, Barbaros Blv. Aykut Pasajı No 25 Kat 2 Daire 3, 34353 Beşiktaş/İstanbul</strong></div>
-          <div class="detail"><small>Telefon</small><a href="tel:+905393247306"><strong>0539 324 73 06</strong></a></div>
-          <div class="detail"><small>Plus Code</small><strong>22V4+VQ Beşiktaş, İstanbul</strong></div>
-          <div class="detail"><small>Kategori</small><strong>Beauty Salon</strong></div>
-        </div>
-        <p style="margin-top:14px"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Cihann%C3%BCma%2C%20Barbaros%20Blv.%20Aykut%20Pasaj%C4%B1%20No%2025%20Kat%202%20Daire%203%2C%2034353%20Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul" target="_blank" rel="noopener">📍 Haritada Aç</a></p>
-      </article>
-
-      <article class="card">
-        <h2>Notlar</h2>
-        <p>Bu landing page, verilen işletme bilgileri ve paylaşılan görseller kullanılarak marka görünürlüğü için düzenlenmiştir.</p>
-        <img src="assets/mark.png" alt="Büşra Turan Beauty işaret" style="max-width:130px;margin-top:16px">
-      </article>
     </section>
   </main>
 
+  <div class="lightbox" id="lightbox"><button class="lightbox-close">Kapat</button><img alt=""></div>
+
   <footer class="site-footer">
-    <div class="footer-inner">
-      <span>© 2026 Büşra Turan Beauty</span>
-      <span>Beauty Salon · Beşiktaş / İstanbul</span>
-      <a href="tel:+905393247306">0539 324 73 06</a>
+    <div class="container footer-wrap">
+      <div><strong>Büşra Turan Beauty</strong><p>Beauty Salon · Beşiktaş / İstanbul</p></div>
+      <div><a href="tel:+905393247306">0539 324 73 06</a><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Cihann%C3%BCma%2C%20Barbaros%20Blv.%20Aykut%20Pasaj%C4%B1%20No%2025%20Kat%202%20Daire%203%2C%2034353%20Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul">Harita</a></div>
     </div>
   </footer>
-
-  <aside class="lightbox" aria-hidden="true">
-    <button class="lightbox-close" aria-label="Kapat">Kapat</button>
-    <img src="" alt="Galeri görseli">
-  </aside>
 
   <script src="js/main.js"></script>
 </body>
