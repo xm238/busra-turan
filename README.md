@@ -1,7 +1,3 @@
 # Büşra Turan Beauty
 
-Static landing page for **Büşra Turan Beauty**.
-
-## Run locally
-
-Open `index.html` in a browser.
+Template-family rebuild with separate HTML/CSS/JS files.
